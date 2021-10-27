@@ -1,0 +1,42 @@
+
+
+
+
+
+
+
+
+
+
+
+footer {display:block; clear:both;  background:#F0F0F0;}
+body#page404 > footer > aside { display:none}
+footer > aside > span { color:#666}
+footer > aside { border-top:1px solid #CCC; background:#FFF}
+footer > aside > .wrap {padding:3em 0;}
+footer > .wrap {padding:3em 0;}
+footer ul.seo-footer-nav.num-plain {
+  overflow: hidden;
+}
+
+/* 404 */
+.e404 { font-size:20em; color:#eee}
+
+/* consultas */
+form.consulta { display:block; margin: 0 auto;}
+form.consulta label { color:#FF8811;}
+form.consulta input,
+form.consulta select,
+form.consulta textarea { 
+	display:block;  border:none; 
+	background:#EEE; border-bottom:#FF8811 1px solid;
+	margin:10px 0 30px 0; padding:10px;
+	width:100%; max-width:400px
+}
+form.consulta input:disabled,
+form.consulta select:disabled,
+form.consulta textarea:disabled {border-bottom:#CCC 1px solid;}
+
+form.consulta input[type=submit] { background:#D86C00; color:#FFF; width:auto}
+
+
